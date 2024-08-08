@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Node.js Functions</title>
+</head>
+<body>
+<h1>Node.js Functions</h1>
+<form action="/summation" method="POST">
+  <label for="summation-input">Enter a number:</label>
+  <input type="number" id="summation-input" name="n" required>
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
+
+<!-- Form for uppercaseFirstandLast -->
+<form id="uppercase-form" action="/uppercaseFirstandLast" method="POST">
+  <label for="uppercase-input">Enter a string to be capitalized (uppercase) both the first letter and
+    the last letter :</label>
+  <input type="text" id="uppercase-input" name="string" required>
+  <button type="submit">Submit</button>
+</form>
+
+<!-- Form for findAverage_and_Median -->
+<form id="average-median-form" action="./average_median" method="Post">
+  <label for="average-median-input">Enter numbers separated by commas:</label>
+  <input type="text" id="average-median-input" name="numbers" required>
+  <button type="submit">Submit</button>
+</form>
+<p id="average-median-result"></p>
+
+<!-- Form for find4Digits -->
+<form id="find4digits-form" action="/find4Digits" method="POST">
+  <label for="find4digits-input">Enter a string of numbers separated by spaces:</label>
+  <input type="text" id="find4digits-input" name="str" required>
+  <button type="submit">Submit</button>
+</form>
+
+
+<!--<script src="./index.js">-->
+<!--</script>-->
+
+
